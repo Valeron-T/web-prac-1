@@ -1,0 +1,57 @@
+.border-active {
+    border: 1px double black;
+}
+
+body {
+    background-color: rgb(13, 19, 102);
+}
+
+tr {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+td {
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-1 {
+    background-image: linear-gradient(to bottom right, #a9f181, #fd8d68);
+    height: 100%;
+    width: 100%;
+}
+
+#table-2 {
+    background-color: rgb(212, 255, 225);
+    width: 100%;
+}
+
+.width-30 {
+    width: 30%;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+.width-14 {
+    width: 14%;
+}
+
+.width-14:hover {
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.nav-icon {    
+    padding-top: 2em;
+}
+
+#big-img {
+    object-fit: cover;
+    width: 100%;
+}
